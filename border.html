@@ -15,12 +15,15 @@
         }
         .demo1{
             border-radius: 5px; /*边框圆角*/
-            box-shadow: 10px 10px 10px #888888;
+            box-shadow: 10px 10px 10px #888888; /*边框阴影*/
+            border-image:url(img/border.png) 30 30 round;
+            -moz-border-image:url(img/border.png) 30 30 round; /* 老的 Firefox */
+            -webkit-border-image:url(img/border.png) 30 30 round; /* Safari 和 Chrome */
+            -o-border-image:url(img/border.png) 30 30 round; /* Opera */
         }
     </style>
 </head>
 <body>
     <div class="demo1"></div>
-<!--    <div class="demo2"></div>-->
 </body>
 </html>
