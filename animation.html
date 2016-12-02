@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div
+        {
+            width:100px;
+            height:100px;
+            background:red;
+            position:absolute;
+            animation:myfirst 5s;
+            -webkit-animation:myfirst 5s;
+            animation-fill-mode: forwards;
+        }
+        @-webkit-keyframes myfirst /* Safari and Chrome */
+        {
+            0%   {background:red; left:500px; bottom:50px;}
+            25%  {background:red; left:500px;height:130px;bottom:50px;}
+            50%  {background:red; left:500px; height:160px;bottom:50px;}
+            75%  {background:red; left:500px;height:190px; bottom:50px;}
+            100% {background:red; left:500px; height:210px;bottom:50px;}
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

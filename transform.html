@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>rotate旋转</title>
+    <title>transform 2D 转换</title>
     <meta charset="UTF-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -15,10 +15,16 @@
         }
         .demo2{
             transform: rotate(45deg);
-            -wibkit-transform: rotate(45deg); /*chrome,safari*/
-            -o-transform: rotate(45deg); /*opera*/
-            -moz-transform: rotate(45deg);/*firefox*/
-            -ms-transform: rotate(45deg); /*IE9*/
+            -wibkit-transform: rotate(45deg); 
+            -o-transform: rotate(45deg); 
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg); 
+            
+/*            transform: translate(100px, 100px);//移动*/
+/*            transform: scale(2,1);*/
+/*            transform: skew(20deg,0);*/
+/*            transform: matrix(0.866,0.5,-0.5,0.866,0,0);*/
+            transform: rotateX(30deg);
         }
     </style>
 </head>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>背景</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <style type="text/css">
+        div{
+            margin-left: 200px;
+            width: 200px;
+            height: 100px;
+            border: 1px solid #1e1;
+            background-color: yellow;
+        }
+        .demo1{
+            background: url(img/border.png), url(img/border.png);/*多层背景图片*/
+            -moz-background-size: 40% 100%; /* 老版本的 Firefox */
+            background-size: 40% 100%;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            
+            background-clip: border-box;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo1">
+        fsdfsdjfjdflksdjflk
+    </div>
+</body>
+</html>
